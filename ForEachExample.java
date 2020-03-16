@@ -12,7 +12,13 @@ public class ForEachExample
 		lis.add("Baba");
 		lis.add("lemon");
 		
-		lis.stream().forEach(name->System.out.println(name));
+		System.out.println("Implementing forEach() method using lambda expression");
+		lis.stream().forEach(name->System.out.println(name));   //pasing lambda expresion as an argument
+		
+		System.out.println("Implementing forEach method Passing method reference as anargument");
+		lis.stream().forEach(System.out::println); //using method reference as an argument
+		
+		
 		
 	}	
 
