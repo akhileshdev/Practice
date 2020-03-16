@@ -13,12 +13,12 @@ interface Sayable
 
 public class DefaultMethod1 implements Sayable
 {
-    public void say()
+    public void say()            //implementing abstract method
     {
     	System.out.println("Implementing Abstract method in class");    	
     }
     
-    public void sayMore() 
+    public void sayMore()  //implementing default method
     {
     	System.out.println("Implementing default method in class");
     }
