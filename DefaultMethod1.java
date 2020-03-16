@@ -2,9 +2,9 @@ import java.util.*;
 
 interface Sayable
 {
-	void say();
+	void say();           //abstract method of interface
 	
-	default void sayMore()
+	default void sayMore()    //default method of interface
 	{
 		System.out.println("Saying More using default method");
 	}
