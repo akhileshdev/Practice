@@ -19,6 +19,9 @@ public class ForEachExample
 		lis.stream().forEach(System.out::println); //using method reference as an argument
 		
 		
+		System.out.println("Implementing  forEachOrdered() method");
+		lis.stream().forEachOrdered(name->System.out.println(name));
+		
 		
 	}	
 
