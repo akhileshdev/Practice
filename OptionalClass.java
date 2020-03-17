@@ -29,9 +29,8 @@ public class OptionalClass
     	 
     	if(opp.isPresent())
     	{
-    		System.out.println("opp.isEmpty return value : "+opp.isEmpty());
-    		
-    		System.out.println("Trying tio print COVID-19 : "+opp.filter((p)->p.endsWith("19")).get());
+    		System.out.println("opp.isEmpty return value : "+opp.isEmpty());    		
+    		System.out.println("Trying to print COVID-19 : "+opp.filter((p)->p.endsWith("19")).get());
     	}
     	 
     	 
