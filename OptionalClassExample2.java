@@ -30,7 +30,14 @@ public class OptionalClassExample2
         	System.out.println("After change --> "+st);
         }
         else
-        	System.out.println("There is no value in str[3]");         
+        	System.out.println("There is no value in str[3]");
+        
+        
+        checkNull.ifPresent(System.out::println);
+        
+        System.out.println("Printing value : "+checkNull.get());
+        
+        System.out.println("Hola !");
         
     }
 	
