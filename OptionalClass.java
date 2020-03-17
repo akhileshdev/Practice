@@ -13,10 +13,10 @@ public class OptionalClass
     	 Optional<String> check = Optional.empty();    	 
     	 System.out.println("Checking empty method of Optional Class : "+check);
     	 
-    	 Optional<String> checknull = Optional.of(str[3]);
-    	 System.out.println("Printing value using Optional of() method : "+checknull);
-    	 
-    	 
+    	 Optional<String> checkvalue = Optional.of(str[3]);
+    	 System.out.println("Printing value using Optional of() method : "+checkvalue);
+    	 System.out.println("Printing value : "+checkvalue.get());
+    	
     	 
     	 
     	 
