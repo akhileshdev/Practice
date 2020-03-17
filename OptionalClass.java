@@ -17,6 +17,8 @@ public class OptionalClass
     	 System.out.println("Printing value using Optional of() method : "+checkvalue);
     	 System.out.println("Printing value : "+checkvalue.get());
     	
+    	 System.out.println("filtering value : "+checkvalue.orElse("No value"));
+    	 System.out.println("filteting value : "+check.orElse("No value"));
     	 
     	 
     	 
