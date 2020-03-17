@@ -35,6 +35,9 @@ public class OptionalClass
     	
     	System.out.println("If value is not present : "+check.orElse("Nothing value is present"));
     	
+    	System.out.println("Nullable with empty value : "+check.ofNullable(str[1]));
+    	System.out.println("Nullable with some value : "+checkvalue.ofNullable(str[7]).get());
+    	
     	 
     	 
      }
