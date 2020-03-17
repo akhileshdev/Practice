@@ -27,7 +27,12 @@ public class OptionalClass
     	 
     	 Optional<String> opp = Optional.ofNullable(str[7]);
     	 
-    	 System.out.println();
+    	if(opp.isEmpty())
+    	{
+    		System.out.println("opp.isEmpty return value : "+opp.isEmpty());
+    		
+    		System.out.println("Trying tio print COVID-19 : "+opp.filter((p)->p.endsWith("19")));
+    	}
     	 
     	 
      }
