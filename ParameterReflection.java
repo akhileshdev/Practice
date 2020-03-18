@@ -28,13 +28,13 @@ public class ParameterReflection
 		
 		for(Method meth : method)
 		{   
-			System.out.print("\nMethod Name : "+meth.getName());			
-			Parameter parameter[] = meth.getParameters();
+			System.out.print("\nMethod Name : "+meth.getName());  //to get the method name of method 'meth'			
+			Parameter parameter[] = meth.getParameters();          //to get the parameters list of method 'meth'
 			
 			for(Parameter prm : parameter)
 			{
-				System.out.print(" "+ prm.getParameterizedType());
-				System.out.print(" "+prm.getName());
+				System.out.print(" "+ prm.getParameterizedType());    //to get the parameters type
+				System.out.print(" "+prm.getName());                 //to get the parameter name
 			}
 			
 			
