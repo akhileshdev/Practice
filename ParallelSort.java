@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.Arrays.*;
 import java.lang.*;
 
 public class ParallelSort
@@ -12,6 +13,13 @@ public class ParallelSort
      
      for(int i : arr)
     	 System.out.print(i+" ");
+     
+     System.out.println("\n\nUsing parallelSort() method ");
+     Arrays.parallelSort(arr,0,5);
+     
+     for(int j : arr)
+    	 System.out.print(j+" ");
+     
 	}
 
 }
