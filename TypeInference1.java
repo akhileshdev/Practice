@@ -27,7 +27,7 @@ public class TypeInference1
     	   typ1.showList(lis2);
     	   
     	   System.out.println("\nUsing JDK 8.0 Vesrion");
-    	   typ1.showList(new ArrayList<>());
+    	   typ1.showList(new ArrayList<>());               //Automatic type will be determined by  java 8 compiler
     	   System.out.println();
     	   
        }
